@@ -1,0 +1,65 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+
+p{
+    font-size: 30px;
+   text-align: center;
+}
+
+.row{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+
+    
+}
+
+
+    
+  
+  .row {
+    display: flex; /* Enable flexbox layout */
+    height: 100%; /* Set row container height to 100% */
+  }
+  
+  .row > div { /* Target all child elements of row-container */
+    flex: 1; /* Make child elements equally sized */
+  }
+  
+  #row1{
+    color: red;
+  }
+  #row2{
+    color: rgb(0, 179, 255);
+  }
+  #row3{
+    color: rgb(212, 0, 255);
+  }
+  #row4{
+    color: #CC5500;
+  }
+  #row5{
+    color: rgb(0, 255, 26);
+  }
+  #row6{
+    color: rgb(0, 0, 0);
+  }
+  #row7{
+    color: rgb(239, 216, 9);
+  }
+
+  h2{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+
+
+    
+  }
